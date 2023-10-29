@@ -1,0 +1,125 @@
+
+body{
+    background-color: #212529;
+    color:#858f99;
+    width: 85%;
+    margin: 0 auto;
+
+}
+.myHero {
+background-color: rgb(255, 255, 255);
+display: flex;
+gap: 60px;
+margin-top: rem;
+color: #59646e;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #080808;
+    letter-spacing: 0.35em;
+  word-spacing: 0.15em;
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  
+}
+h3 {
+    letter-spacing: 0.30em;
+    word-spacing: 0.25em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+.btn{
+    position: absolute;
+  top: 60%;
+  left: 57%;
+  margin: -25px 0 0 -25px;
+}
+.related{
+    width: 400px;
+    text-align: justify;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.myPic {
+    box-shadow: 15px 15px 5px; color: #212529;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content:space-between;
+
+}
+.conexion{
+    width: 150px;
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    margin: -25px 0 0 -25px;
+    opacity: 60%;
+    border-radius: 50%;
+    animation: spin 15s ease infinite;
+}
+
+
+/*.spinner {
+    border: 4px dotted rgba(0, 0, 0, 0);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: rgb(168, 189, 204);
+    animation: spin 1s ease infinite;
+}*/
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}.logos{
+  position: absolute;
+  top: 78%;
+  left: 35%;
+  margin: -25px 0 0 -25px;
+  display: flex;
+  width: 100%;
+  gap: 8%;
+  align-items: baseline;
+
+}
+.face {
+    width: 60px;
+    height: 60px;
+    
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+}
+.ig{
+    width: 55px;
+    height: 55px;
+}
+.tiktok{
+    width: 45px;
+    height: 45px;
+}
+.git{
+    width: 55px;
+    height: 55px;
+}
+
+
+
+
+
+
+
