@@ -15,7 +15,7 @@ color: #59646e;
 }
 
 h1 {
-    text-shadow: 2px 2px 4px #080808;
+    text-shadow: 2px 2px 5px #080808d3;
     letter-spacing: 0.35em;
   word-spacing: 0.15em;
   
@@ -86,7 +86,7 @@ header {
     }
 }.logos{
   position: absolute;
-  top: 78%;
+  top: 88%;
   left: 35%;
   margin: -25px 0 0 -25px;
   display: flex;
@@ -96,25 +96,39 @@ header {
 
 }
 .face {
-    width: 60px;
-    height: 60px;
-    
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    border-radius: 50%;
+    padding: 4px;
 }
 .linkedin{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    padding: 4px;
 }
 .ig{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    padding: 4px;
 }
 .tiktok{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 25px; color: #686a6b48;
+    padding: 4px; 
 }
 .git{
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    padding: 4px;
 }
 
 
