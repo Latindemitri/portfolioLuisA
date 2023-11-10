@@ -6,13 +6,65 @@ body{
     margin: 0 auto;
 
 }
-.myHero {
-background-color: rgb(255, 255, 255);
+.header{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 75px;
+    padding: 5px 10%;
+    margin-top: 15px;
+}
+/* .header .logo{
+    cursor: pointer;
+} */
+/* .header .logo img{
+    height: 50px;
+    width: auto;
+} */
+.header .nav-links {
+    list-style: none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 700;
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+}
+.header .nav-links a:hover{
+    text-shadow: 5px 5px 5px rgb(137, 225, 255);
+}
+.header .bot button{
+    font-weight: 700;
+    color: #212529;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    margin-right: 20px;
+
+}
+.header .bot button:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+
+
+.container {
 display: flex;
 gap: 60px;
-margin-top: rem;
+padding-left: 0px;
 color: #59646e;
+background-color: rgb(255, 255, 255);
 }
+
 
 h1 {
     text-shadow: 2px 2px 5px #080808d3;
@@ -22,6 +74,7 @@ h1 {
   position: absolute;
   top: 40%;
   left: 50%;
+  justify-content: center;
   margin: -25px 0 0 -25px;
   
 }
@@ -34,10 +87,10 @@ h3 {
     margin: -25px 0 0 -25px;
 }
 .btn{
-    position: absolute;
-  top: 60%;
+    position: fixed;
+  top: 57%;
   left: 57%;
-  margin: -25px 0 0 -25px;
+  
 }
 .related{
     width: 400px;
@@ -48,8 +101,11 @@ h3 {
   margin: -25px 0 0 -25px;
 }
 .myPic {
+    
     box-shadow: 15px 15px 5px; color: #212529;
+    
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -62,7 +118,6 @@ header {
     position: absolute;
     top: 25%;
     left: 56%;
-    margin: -25px 0 0 -25px;
     opacity: 60%;
     border-radius: 50%;
     animation: spin 15s ease infinite;
@@ -87,53 +142,155 @@ header {
 }.logos{
   position: absolute;
   top: 88%;
-  left: 35%;
-  margin: -25px 0 0 -25px;
+  left: 45%;
+  /* margin: -25px 0 0 -25px; */
   display: flex;
   width: 100%;
   gap: 8%;
   align-items: baseline;
 
 }
-.face {
-    width: 50px;
-    height: 50px;
-    box-shadow: 2px 2px 25px; color: #686a6b48; 
-    border-radius: 50%;
-    padding: 4px;
-}
+
 .linkedin{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    box-shadow: 2px 2px 25px; color: rgba(245, 247, 248, 0.282); 
     padding: 4px;
 }
 .ig{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    box-shadow: 2px 2px 25px; color: rgba(245, 247, 248, 0.282); 
     padding: 4px;
 }
 .tiktok{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    box-shadow: 2px 2px 25px; color: #686a6b48;
+    box-shadow: 2px 2px 25px; color: rgba(245, 247, 248, 0.282); 
     padding: 4px; 
 }
 .git{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    box-shadow: 2px 2px 25px; color: #686a6b48; 
+    box-shadow: 2px 2px 25px; color: rgba(245, 247, 248, 0.282); 
     padding: 4px;
+}
+
+.footer .logos img:hover{
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 375px) {
+
+    body{
+        width: 95%;
+        margin: 0 auto;
+    
+    }
+
+    .myPic {
+    
+        box-shadow: 15px 15px 5px; color: #212529;
+        width: 98px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: -40px;    
+}
+h3 {
+    font-size: 12px;
+    margin-top: -49px;
+}
+
+.conexion{
+    width: 60px;
+}
+
+.related {
+    font-size: 15px;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: -144px;
+    color:#858f99;
+    font-style: italic;
+
+}
+.btn{
+  font-size: 10px;
+  margin: -260px -122px;
+  
+  
+}
+
+.footer .logos img{
+    width: 24px;
+    height: 24px;
+    margin: -2px -1px;
+
 }
 
 
 
+}
+
+/* @media (max-width: 768px) {
+
+    body{
+        width: 95%;
+        margin: 0 auto;
+        
+    
+    }
+
+    .myPic {
+    
+        box-shadow: 15px 15px 5px; color: #212529;
+        width: 295px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 3px;    
+}
+h3 {
+    font-size: 21px;
+    margin: -10px 6px;
+}
+
+.conexion{
+    width: 120px;
+    margin: -10px 58px;
+}
+
+.related {
+    font-size: 18px;
+    width: 39%;
+    margin-top: -21px;
+    margin-left: 6px;
+    color:#858f99;
+    font-style: italic;
+
+}
+.btn{
+  font-size: 14px;
+  margin: -148px -152px;
+  
+  
+}
+
+.footer .logos img{
+    width: 34px;
+    height: 34px;
+    margin: 0px 8px;
+
+}
 
 
 
-
+} */
