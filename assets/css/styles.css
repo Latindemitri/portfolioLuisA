@@ -196,6 +196,26 @@ text-align: center;
     transform: scale(1.1);
 }
 
+.about{
+background-image:url('/assets/img/city-1868530_640.jpg');
+background-repeat: no-repeat;
+padding: 26%;
+background-size:contain;
+margin-top: 6%;
+text-align: left;
+background-position: center;
+box-shadow: 2px 2px 25px; color: rgb(17, 17, 17);
+
+}
+h2 {
+    margin: -14% -3%;
+    position: absolute;
+}
+.me{
+    margin: -8% -3%;
+    position: absolute;
+    width: 43%;
+}
 
 /*  M E D I A   Q U E R I E S  */
 
