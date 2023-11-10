@@ -57,7 +57,9 @@ body{
     background-color: aquamarine;
     transform: scale(1.1);
 }
-
+.navbar-toggler{
+    background-color: rgb(255, 255, 255);
+}
 
 .container {
 display: flex;
@@ -209,7 +211,7 @@ header {
         width: 98px;
     }
     .navbar-toggler{
-        background-color: azure;
+        background-color: rgb(255, 255, 255);
     }
     h1 {
         font-size: 20px;
