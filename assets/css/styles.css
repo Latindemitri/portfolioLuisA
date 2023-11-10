@@ -57,9 +57,6 @@ body{
     background-color: aquamarine;
     transform: scale(1.1);
 }
-.bg-body-tertiary {
-    background-color:#212529;
-}
 
 
 .container {
@@ -211,7 +208,9 @@ header {
         box-shadow: 15px 15px 5px; color: #212529;
         width: 98px;
     }
-
+    .navbar-toggler{
+        background-color: azure;
+    }
     h1 {
         font-size: 20px;
         margin: -40px;    
