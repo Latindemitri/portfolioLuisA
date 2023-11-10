@@ -60,6 +60,10 @@ body{
 .navbar-toggler{
     background-color: rgb(255, 255, 255);
 }
+.container-fluid{
+    background-color: #212529;
+    z-index: 1;
+}
 
 .container {
 display: flex;
