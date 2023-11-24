@@ -203,6 +203,9 @@ header {
   background-size:cover;
   width: 100vh;
   height: 30rem;
+  color: #212529;
+  padding: 3rem;
+  margin-top: 5rem;
 }
 .about h2{
   margin-left: 160px;
@@ -218,6 +221,47 @@ header {
 .projects {
   width: 100vh;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.267);;
+  border-radius: 0.5rem;
+  margin-top: 8rem;
+  padding: 5rem;
+
+}
+.technologies{
+  margin-top: 5rem;
+  
+}
+
+.contact form{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.contact{
+  text-align: center;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.267);
+  padding: 3rem;
+  width: 30rem;
+  height: 30rem;
+  justify-self: center;
+  border-radius: 0.4rem;
+}
+input{
+  width: 24.1rem;
+  border-radius: 5px;
+  
+}
+
+.contact button{
+  width: 24rem;
+  border-radius: 5px;
+  background-color: #858f99;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
 /*  M E D I A   Q U E R I E S  */
