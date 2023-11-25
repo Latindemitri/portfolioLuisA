@@ -13,15 +13,22 @@ body {
     "contact contact contact contact "
     "footer footer footer footer footer";
 }
-
+.navbar>.container-fluid{
+  width: 100vh;
+}
 .header {
   background-color: #212529;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 75px;
-  padding: 5px 10%;
-  margin-top: 15px;
+  
+  margin-top: -8px;
+  position: fixed;
+  /* width: -webkit-fill-available; */
+  z-index: 1;
+}
+.home {
+  scroll-margin-top: 1px;
 }
 
 .header .nav-links {
@@ -75,6 +82,8 @@ body {
   background-color: rgb(255, 255, 255);
   width: 100vh;
   margin-bottom: 6%;
+  margin-top: 76px;
+  
 }
 
 h1 {
@@ -228,8 +237,51 @@ header {
 
 }
 .technologies{
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 28rem;
+
+    
+}
+.prog{
+  width: 100vh;
+  opacity: 25%;
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  display: flex;
+}
+/* .programador{
+
+} */
+
+/* .tec{
+  position: relative;
+  z-index: 100;
+  margin-top: 2rem;
+} */
+
+/* .opacity{
+  background-color: #000000ed;
+  width: 100vh;
+  height: 87%;
+  position: absolute;
+  z-index: 1;
+  opacity: 85%;
+  margin-top: -7.5rem;
+} */
+.technologies .apps{
+  display: flex;
+  gap: 2rem;
   margin-top: 5rem;
-  
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+
+.testimonials{
+  text-align: center;
+  margin-top: 10rem;
 }
 
 .contact form{
