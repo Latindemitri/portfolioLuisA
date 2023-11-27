@@ -1,5 +1,11 @@
 body {
-  background-color: #212529;
+  
+  background-color: #000000;
+  background-image: url(/assets/img/design-1701053320121.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   color: #858f99;
   width: fit-content;
     margin: 0 auto;
@@ -12,12 +18,14 @@ body {
     "technologies technologies technologies technologies "
     "contact contact contact contact "
     "footer footer footer footer footer";
+    color: #0dcaf0;
+    
 }
 .navbar>.container-fluid{
   width: 100vh;
 }
 .header {
-  background-color: #212529;
+  background-color: rgba(0, 0, 0, 0.904);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -28,7 +36,11 @@ body {
   z-index: 1;
 }
 .home {
-  scroll-margin-top: 1px;
+  scroll-margin-top: 8ex;
+}
+main{
+  margin-top: 6px;
+  display: grid;
 }
 
 .header .nav-links {
@@ -60,14 +72,14 @@ body {
   margin-right: 20px;
 }
 .header .bot button:hover {
-  background-color: aquamarine;
+  background-color: #0dcaf0;
   transform: scale(1.1);
 }
 .navbar-toggler {
   background-color: rgb(255, 255, 255);
 }
 .container-fluid {
-  background-color: #212529;
+  background-color: rgba(0, 0, 0, 0.904);
   z-index: 1;
   padding: 3px 3px;
   border-radius: 5px 5px;
@@ -79,17 +91,21 @@ body {
   gap: 16%;
   padding-left: 0px;
   color: #59646e;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.904);
   width: 100vh;
   margin-bottom: 6%;
   margin-top: 76px;
   
 }
+.spinner-grow{
+  background-color: #0dcaf0;
+}
 
 h1 {
-  text-shadow: 2px 2px 5px #080808d3;
+  text-shadow: 2px 2px 5px #0dcaf0;
   letter-spacing: 0.35em;
   word-spacing: 0.15em;
+  color: #0dcaf0;
 
   /* position: absolute;
   top: 40%;
@@ -106,16 +122,19 @@ h3 {
     left: 50%;
     margin: -25px 0 0 -25px; */
   text-align: center;
+  color: aliceblue;
 }
 
 .related {
   width: 55%;
   text-align: justify;
   margin-left: 22%;
+  color: aliceblue;
+  font-style: italic;
 }
 .myPic {
-  box-shadow: 15px 15px 5px;
-  color: #212529;
+  box-shadow: 10px 10px 7px -7px;
+  color: #0dcaf0;
   width: 165%;
 }
 
@@ -210,11 +229,13 @@ header {
   background-image: url(/assets/img/city-1868530_640.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+  opacity: 85%;
   width: 100vh;
   height: 30rem;
   color: #212529;
   padding: 3rem;
   margin-top: 5rem;
+  border-radius: 0.4rem;
 }
 .about h2{
   margin-left: 160px;
@@ -224,13 +245,14 @@ header {
   margin-left: 160px;
   margin-right: 160px;
   text-align: justify;
+  font-style: italic;
 }
 
 
 .projects {
   width: 100vh;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.267);;
+  background-color: rgba(0, 0, 0, 0.904);
   border-radius: 0.5rem;
   margin-top: 8rem;
   padding: 5rem;
@@ -240,6 +262,12 @@ header {
   margin-top: 10rem;
   text-align: center;
   margin-bottom: 28rem;
+  background-color: rgba(0, 0, 0, 0.904);
+  padding: 3rem;
+  width: 100vh;
+  height: 55rem;
+  justify-self: center;
+  border-radius: 0.4rem;
 
     
 }
@@ -282,6 +310,24 @@ header {
 .testimonials{
   text-align: center;
   margin-top: 10rem;
+  justify-self: center;
+  width: 500px;
+}
+.manProg img{
+  width: 30rem;
+  height: 30rem;
+  margin-top: 45px;
+}
+.dark{
+  background-color: rgba(0, 0, 0, 0.904);
+  padding: 3rem;
+  width: 100vh;
+  height: 55rem;
+  justify-self: center;
+  border-radius: 0.4rem;
+  position: absolute;
+  z-index: -1;
+  margin-top: 268rem;
 }
 
 .contact form{
@@ -295,9 +341,9 @@ header {
 .contact{
   text-align: center;
   margin-top: 10rem;
-  background-color: rgba(0, 0, 0, 0.267);
+  background-color: rgba(0, 0, 0, 0.904);
   padding: 3rem;
-  width: 40rem;
+  width: 100vh;
   height: 45rem;
   justify-self: center;
   border-radius: 0.4rem;
@@ -315,9 +361,23 @@ textarea{
 .contact button{
   width: 33rem;
   border-radius: 5px;
-  background-color: #858f99;
+  background-color: #0dcaf0;
   font-weight: bold;
   margin-top: 1rem;
+  border: #0dcaf0;
+}
+
+.contact button:hover{
+  transform: scale(1.1);
+}
+
+
+
+.carousel-inner{
+
+  border-radius: 8px;
+  justify-self: center;
+  
 }
 
 /*  M E D I A   Q U E R I E S  */
