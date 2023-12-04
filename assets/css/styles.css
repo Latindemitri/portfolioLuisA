@@ -14,15 +14,44 @@ body {
     "header header header header"
     "container container spinner spinner"
     "about about about about"
-    "projects projects projects projects  "
-    "technologies technologies technologies technologies "
+    "projects projects projects projects"
+    "technologies technologies technologies technologies"
     "contact contact contact contact "
     "footer footer footer footer footer";
     color: #0dcaf0;
     
 }
+.chakran{
+  animation: spin 58s linear infinite;
+  width: 8rem;
+  border-radius: 6rem;
+  box-shadow: 0px 0px 50px -7px;
+  color: #0dcaf0;
+  
+  
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.laLogo{
+  width: 115px;
+  position: inherit;
+  z-index: 100;
+  margin: 16px 987px;
+  border-radius: 8px;
+}
 .navbar>.container-fluid{
   width: 100vh;
+  justify-content: right;
+  margin-top: -10px;
+  padding: 5px;
 }
 .header {
   background-color: rgba(0, 0, 0, 0.904);
@@ -48,7 +77,9 @@ main{
 }
 .header .nav-links li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 20px 0px;
+  height: 5rem;
+  
 }
 .header .nav-links li:hover {
   transform: scale(1.1);
@@ -69,7 +100,8 @@ main{
   border: none;
   border-radius: 50px;
   transition: all 0.3s ease 0s;
-  margin-right: 20px;
+  margin-top: 19px;
+  
 }
 .header .bot button:hover {
   background-color: #0dcaf0;
@@ -78,12 +110,20 @@ main{
 .navbar-toggler {
   background-color: rgb(255, 255, 255);
 }
+.navbar-toggler-icon{
+  width: 3.5em;
+  height: 3.5em;
+}
+
 .container-fluid {
   background-color: rgba(0, 0, 0, 0.904);
   z-index: 1;
   padding: 3px 3px;
   border-radius: 5px 5px;
   opacity: 85%;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
 }
 
 .container {
@@ -114,6 +154,10 @@ h1 {
   /* margin: -25px 0 0 -25px; */
   width: auto;
 }
+.ttec{
+  margin-top: 6px;
+}
+
 h3 {
   letter-spacing: 0.3em;
   word-spacing: 0.25em;
@@ -132,10 +176,19 @@ h3 {
   color: aliceblue;
   font-style: italic;
 }
+
+.btn {
+  color: black;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    font-weight: bold;
+}
+
+
 .myPic {
   box-shadow: 10px 10px 7px -7px;
   color: #0dcaf0;
-  width: 165%;
+  width: 185%;
 }
 
 header {
@@ -179,7 +232,7 @@ header {
   top: 88%;
   left: 45%; */
   display: flex;
-  width: 100%;
+  width: 90%;
   gap: 8%;
   align-items: baseline;
   justify-content: flex-end;
@@ -192,7 +245,7 @@ header {
   height: 50px;
   border-radius: 50%;
   box-shadow: 2px 2px 25px;
-  color: rgba(245, 247, 248, 0.282);
+  color: #0dcaf0;
   padding: 4px;
 }
 .ig {
@@ -200,7 +253,7 @@ header {
   height: 50px;
   border-radius: 50%;
   box-shadow: 2px 2px 25px;
-  color: rgba(245, 247, 248, 0.282);
+  color: #0dcaf0;
   padding: 4px;
 }
 .tiktok {
@@ -208,7 +261,7 @@ header {
   height: 50px;
   border-radius: 50%;
   box-shadow: 2px 2px 25px;
-  color: rgba(245, 247, 248, 0.282);
+  color: #0dcaf0;
   padding: 4px;
 }
 .git {
@@ -216,7 +269,7 @@ header {
   height: 50px;
   border-radius: 50%;
   box-shadow: 2px 2px 25px;
-  color: rgba(245, 247, 248, 0.282);
+  color: #0dcaf0;
   padding: 4px;
 }
 
@@ -256,12 +309,12 @@ header {
   border-radius: 0.5rem;
   margin-top: 8rem;
   padding: 5rem;
-
 }
+
+
 .technologies{
-  margin-top: 10rem;
+
   text-align: center;
-  margin-bottom: 28rem;
   background-color: rgba(0, 0, 0, 0.904);
   padding: 3rem;
   width: 100vh;
@@ -304,30 +357,43 @@ header {
   margin-top: 5rem;
   justify-content: center;
   position: relative;
-  z-index: 100;
+  
 }
 
 .testimonials{
   text-align: center;
-  margin-top: -28rem;
+  position: absolute;
   justify-self: center;
   width: 500px;
 }
+.carouse {
+  width: 9rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.carouse img{
+  border-radius: 0.5rem;
+  margin-top: 20rem;
+}
+
 .manProg img{
   width: 30rem;
   height: 30rem;
   margin-top: 45px;
 }
+
+.reviews{
+  margin-top: 10rem;
+}
 .dark{
   background-color: rgba(0, 0, 0, 0.904);
-  padding: 3rem;
-  width: 100vh;
-  height: 55rem;
-  justify-self: center;
   border-radius: 0.4rem;
-  position: absolute;
-  z-index: -1;
-  margin-top: 229rem;
+  display: flex;
+  width: 100vh;
+  justify-content: center;
+  gap: 5rem;
+  height: 56rem;
 }
 
 .contact form{
@@ -340,7 +406,6 @@ header {
 }
 .contact{
   text-align: center;
-  margin-top: 10rem;
   background-color: rgba(0, 0, 0, 0.904);
   padding: 3rem;
   width: 100vh;
@@ -348,6 +413,10 @@ header {
   justify-self: center;
   border-radius: 0.4rem;
 }
+.get{
+  margin-top: 40px;
+}
+
 input{
   width: 33.1rem;
   border-radius: 5px;
